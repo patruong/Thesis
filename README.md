@@ -6,6 +6,7 @@ Proteomics is the study of proteins and thier part in the biological systems. In
 
 ## Transcriptom, genome and thier relationship to the proteome
 
+![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fbyjus.com%2Fbiology%2Fcentral-dogma-inheritance-mechanism%2F&psig=AOvVaw31sEmCgwXo7LfVMwI5Acu0&ust=1607821359946000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCD8bufx-0CFQAAAAAdAAAAABAD)
 
 ## Proteins
 ## Proteoform 
