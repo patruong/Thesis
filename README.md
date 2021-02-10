@@ -23,3 +23,39 @@ Mass spectrometry plays a vital role in proteomics and has become an indispensab
 # Challenges in proteomics
 [EDIT ITS COPY PASTED, Cho. W 2007 is about the challenges read it!]
 While the potential is great, many challenges and issues remain to be solved, such as mining low abundant proteins and integration of proteomics with genomics and metabolomics data. Nevertheless, proteomics is the foundation for constructing and extracting useful knowledge to biomedical research. In this review, a snapshot of contemporary issues in proteomics technologies is discussed.([Cho. W. 2007](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5054093/))
+
+# Retention time 
+Retention time (RT) is the time it takes for a solute to pass through a chromatography column. It is the time from injection to detection...
+
+
+# Mass spectrometry based proteomics
+
+## Peptide identification
+Peptide identification from MS/MS is an important area the bottom-up proteomics methodology. The three methods for identifying peptides are presented below.
+
+Good links:
+[Griss, Johannes, 2015](Spectra library searching in proteomics.](https://onlinelibrary.wiley.com/doi/full/10.1002/pmic.201500296)
+### Sequence database searching
+A search engine generates theoretical spectra of all possibly existing peptides based on theoretical spectra - even those never observed using MS. Sequence database search engines mostly only predict pcanonical fragment ions.  
+
+#### Sequence database scoring approach
+(Is is a dot product multiplication of our data peaks and a boolean vector, where the boolean vector contains a peptide sequence.)
+
+### De-novo sequencing
+In de-novo seuqencing algorithms attempt to derive peptide's sequence directly from the MS/MS spectrum by taking all possible amino acid combinations into consideration. This results in considerably larger search space sequence database searching. De-novo sequencing algorithms are therefore considerably slower than other approaches and generally derive multiple seuqnces per spectrum at equal probability. Currently, de-novo sequencing is not suited to be used as a primary means to identify MS/MS spectra [Griss, J. 2015](https://onlinelibrary.wiley.com/doi/full/10.1002/pmic.201500296).
+
+### Spectral database searching
+Spectral library searching use spectra libraries of identified, generally experimental MS/MS spectra to identify observed MS/MS spectra. It has been shown that spectral database search engines are able to identify significantly more peptides and is faster than sequence data base searches [Zhang et al. 2011](https://onlinelibrary.wiley.com/doi/10.1002/pmic.201000492).
+
+#### Spectral database searching scoring approach
+All of the current search engines (SpectraST, Trans-proteomic Pipeline, X!Hunter, Bibliospec and MSPepSearch) use dot-product based scoring approach to combine the experimental spectra against the library spectra. 
+
+
+
+
+
+
+
+
+
+
